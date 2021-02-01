@@ -39,6 +39,7 @@ body {
 
 .header__welcome {
     flex: 1;
+    align-self: center;
 }
 
 .header__title {
@@ -84,6 +85,100 @@ body {
 }
 
 .header__illustration {
+    width: 100%;
+    height: auto;
+}
+
+/* Productive ( Main ) */
+
+.main {
+    padding: 50px;
+    background-color: hsl(240, 75%, 98%);
+}
+
+.main__productivity {
+    display: flex;
+}
+
+.main__info {
+    flex: 1;
+}
+
+.main__title {
+    margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.main__desc {
+    max-width: 550px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.main__link {
+    padding-bottom: 5px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+}
+
+.main__arrow {
+    margin-left: 5px;
+}
+
+.main__testimonial {
+    margin-top: 40px;
+    max-width: 400px;
+    padding: 40px 30px 25px;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url("../images/icon-quotes.svg");
+    background-repeat: no-repeat;
+    background-position: 30px 25px;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.2);
+}
+
+.main__review {
+    line-height: 1.5;
+}
+
+.main__profile {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.main__picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.main__about {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.main__name {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.main__role {
+    font-size: 12px;
+}
+
+.main__image {
+    flex: 1;
+}
+
+.main__illustration {
     width: 100%;
     height: auto;
 }
