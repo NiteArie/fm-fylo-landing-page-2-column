@@ -86,6 +86,12 @@ body {
     background-color: hsl(224, 93%, 58%);
     border: 0;
     border-radius: 3px;
+    cursor: pointer;
+    transition: all 100ms ease-out;
+}
+
+.header__submit:hover {
+    background-color: hsl(224, 98%, 67%);
 }
 
 .header__image {
@@ -242,6 +248,11 @@ body {
     border: 0;
     border-radius: 3px;
     box-shadow: 0 0 5px hsla(0, 0%, 0%, .2);
+    transition: all 100ms ease-out;
+}
+
+.access__submit:hover {
+    background-color: hsl(224, 98%, 67%);
 }
 
 /* Footer */
@@ -281,6 +292,11 @@ body {
 .footer__link {
     text-decoration: none;
     color: hsl(0, 0%, 80%);
+    transition: color 100ms ease-out;
+}
+
+.footer__link:hover {
+    color: hsl(238, 22%, 44%);
 }
 
 .footer__socials {
@@ -297,12 +313,18 @@ body {
     height: 30px;
     border-radius: 50%;
     border: 1px solid hsl(240, 75%, 98%);
+    cursor: pointer;
+}
+
+.footer__social:hover {
+    filter: brightness(0) saturate(100%) invert(48%) sepia(29%) saturate(1208%) hue-rotate(193deg) brightness(85%) contrast(87%);
 }
 
 .footer__social-icon {
     width: 14px;
     height: 14px;
 }
+
 
 /* Attribution */
 
