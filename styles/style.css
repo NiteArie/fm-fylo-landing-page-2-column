@@ -5,5 +5,85 @@
 }
 
 body {
-    
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Header */
+
+.header__nav {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__item {
+    margin-left: 50px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+}
+
+.header__hero {
+    padding: 50px;
+    display: flex;
+}
+
+.header__welcome {
+    flex: 1;
+}
+
+.header__title {
+    font-size: 44px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.header__desc {
+    margin: 20px 0;
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.header__form {
+    max-width: 500px;
+    display: flex;
+}
+
+.header__input {
+    flex: 2;
+    padding: 15px 15px 10px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.header__submit {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(224, 93%, 58%);
+    border: 0;
+    border-radius: 3px;
+}
+
+.header__image {
+    flex: 1;
+}
+
+.header__illustration {
+    width: 100%;
+    height: auto;
 }
