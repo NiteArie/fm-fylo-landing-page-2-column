@@ -304,6 +304,18 @@ body {
     height: 14px;
 }
 
+/* Attribution */
+
+.attribution {
+    padding: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(170, 45%, 43%);
+}
+
 @media all and (max-width: 1100px) {
     /* Header */
 
@@ -420,10 +432,6 @@ body {
     .header__hero {
         padding-left: 20px;
         padding-right: 20px;
-    }
-
-    .header__form {
-        /* flex-direction: column; */
     }
 
     /* Main */
