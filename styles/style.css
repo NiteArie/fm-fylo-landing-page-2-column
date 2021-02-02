@@ -77,6 +77,19 @@ body {
     border-radius: 3px;
 }
 
+.header__input--error {
+    border: 1px solid hsl(0, 40%, 50%);
+}
+
+.header__error {
+    margin-top: 5px;
+    color: hsl(0, 40%, 50%);
+}
+
+.header__error--hidden {
+    visibility: hidden;
+}
+
 .header__submit {
     flex: 1;
     margin-left: 20px;
@@ -233,8 +246,22 @@ body {
     width: 100%;
     padding: 15px 20px;
     border-radius: 3px;
-    border: 0;
+    border: 1px solid hsl(238, 22%, 44%);
     box-shadow: 0 0 4px hsla(0, 0%, 0%, .2);
+}
+
+.access__email--error {
+    border: 1px solid hsl(0, 40%, 50%);
+}
+
+.access__error {
+    margin-top: 5px;
+    font-size: 14px;
+    color: hsl(240, 75%, 98%);
+}
+
+.access__error--hidden {
+    visibility: hidden;
 }
 
 .access__submit {

@@ -46,10 +46,13 @@
           them wherever you need, share and collaborate with friends, family,
           and co-workers.
         </p>
-        <form class="header__form" novalidate>
-          <input class="header__input" type="email" name="email" placeholder="Enter your email..." aria-label="email">
+        <form class="header__form js-header-form" novalidate>
+          <input class="header__input js-header-input" type="email" name="email" placeholder="Enter your email..." aria-label="email">
           <button class="header__submit" type="submit">Get Started</button>
         </form>
+        <p class="header__error header__error--hidden js-header-error">
+          Please check your email
+        </p>
       </div>
       <div class="header__image">
         <img class="header__illustration" src="images/illustration-1.svg" width="1132" height="839">
@@ -106,10 +109,11 @@
       </p>
     </div>
 
-    <div class="access__form" novalidate>
-      <input class="access__email" type="email" name="email" aria-label="email" placeholder="email@example.com">
+    <form class="access__form js-access-form" novalidate>
+      <input class="access__email js-access-email" type="email" name="email" aria-label="email" placeholder="email@example.com">
+      <p class="access__error access__error--hidden js-access-error">Please check your email</p>
       <button class="access__submit" type="submit">Get Started For Free</button>
-    </div>
+    </form>
   </section>
 
   <footer class="footer">
@@ -197,6 +201,7 @@
       Coded by <a href="https://github.com/NiteArie" target="_blank">tien.nguyen</a>.
     </p>
   </footer>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>
