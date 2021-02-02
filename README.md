@@ -1,5 +1,9 @@
 # fm-fylo-landing-page-2-column (Fylo Landing Page With 2 Columns Layout)
 
+## Preview
+
+Live URL: [https://nitearie.github.io/fm-fylo-landing-page-2-column/](https://nitearie.github.io/fm-fylo-landing-page-2-column/)
+
 ## Design
 
 > Desktop
