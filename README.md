@@ -10,6 +10,10 @@ Live URL: [https://nitearie.github.io/fm-fylo-landing-page-2-column/](https://ni
 
 ![Desktop Design](./design/desktop-design.jpg)
 
+> Desktop Active States
+
+![Desktop Active State](./design/active-states.jpg)
+
 > Mobile
 
 ![Mobile Design](./design/mobile-design.jpg)
